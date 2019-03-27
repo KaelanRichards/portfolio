@@ -1,24 +1,33 @@
 <template>
-  <section class="section is-medium">
-    <div class="container has-text-centered">
-      <h1 class="title">About Me</h1>
-      <h1>
-        My name is Kaelan
-        (AKA Kado), I’m a 
-        software developer based in Detroit, Michigan. 
-        I build modern applications for the web!
-        I'm a Creator, I enjoy designing, developing, writing - creating.
-      </h1>
-    </div>
+  <section class="section is-large">
+    <section class="section is-small">
+      <div class="container has-text-left">
+        <h1>
+          My name is Kaelan
+          (AKA Kado), I’m a 
+          software developer based in Detroit, Michigan.
+        </h1>   
+        <h1> 
+          I build modern applications for the web!
+          I'm a Creator, I enjoy designing, developing, writing - creating.
+        </h1>
+      </div>
+    </section>
+    <section class="section is-small">
+      <div class="container has-text-left">
+        <h1 class="title">Follow Me</h1>
+        <p>
+        Twitter: <a href="https://twitter.com/kado_dev" target="_blank">@kado_dev</a>
+      </p>
+      <p>
+        Instagram: <a href="https://www.instagram.com/kado.dev/" target="_blank">@kado.dev</a>
+      </p>
+      <p>
+        linkedin: <a href="https://www.linkedin.com/in/kaelanr/" target="_blank">@kado.dev</a>
+      </p>
+      
+      </div>
+     </section>
   </section>
 </template>
-<style>
-.name-link {
-    color: #555555;
-    display: inline;
-    border-bottom: 4px dashed #999999;
-    text-decoration: none;
-    transition: ease 0.5s;
-    font-size: 20px;
-}
-</style>
+

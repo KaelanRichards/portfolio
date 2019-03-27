@@ -6,10 +6,23 @@
           Kaelan
         </a> 
       </h1>
+      
       <h2 class="subtitle need-padding">a Software Developer based in Detroit, Michigan.</h2>
     </div>
+    <projecttile></projecttile>
   </section>
 </template>
+
+<script>
+import ProjectTile from '../components/ProjectTile'
+
+export default {
+  components: {
+    ProjectTile
+  }
+}
+</script>
+
 <style>
 .name-link {
     color: #555555;
@@ -19,7 +32,6 @@
     transition: ease 0.5s;
 
 }
-
 .need-padding {
   padding: 10px;
 }
