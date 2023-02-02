@@ -2,17 +2,41 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <style>
-      /* Add some styling to make the page look edgy and hipster */
+      /* Use a clean and modern font */
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+      /* Use a grid layout to organize content */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 2rem;
+        padding: 4rem;
+      }
+
+      /* Center the text */
+      .center {
+        grid-column: 4 / 8;
+        text-align: center;
+      }
+
+      /* Apply the font */
       body {
-        font-family: "Arial";
+        font-family: "Open Sans", sans-serif;
         background-color: #f0f0f0;
         color: #333;
+        margin: 0;
       }
     </style>
   </head>
   <body>
-    is this portfolio minmalsitic enough to seem interesting?
+    <div class="grid">
+      <div class="center bg-black">
+        <h1>Kaelan</h1>
+        <p>The more I learn, the less I know.</p>
+      </div>
+    </div>
   </body>
 </html>
