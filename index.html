@@ -16,10 +16,10 @@
         padding: 4rem;
       }
 
-      /* Center the text */
-      .center {
-        grid-column: 4 / 8;
-        text-align: center;
+      /* Align the text to the right */
+      .right {
+        grid-column: 7 / 12;
+        text-align: right;
       }
 
       /* Apply the font */
@@ -29,13 +29,32 @@
         color: #333;
         margin: 0;
       }
+
+      /* Add some design elements for a sophisticated look */
+      h1 {
+        color: #333;
+        border-bottom: 2px solid #333;
+      }
+
+      a {
+        color: #333;
+        text-decoration: none;
+        border-bottom: 1px dotted #333;
+      }
+
+      a:hover {
+        border-bottom-style: solid;
+      }
     </style>
   </head>
   <body>
     <div class="grid">
       <div class="center bg-black">
         <h1>Kaelan</h1>
-        <p>The more I learn, the less I know.</p>
+        <p>Past: D1 Wrestler, Software Engineer</p>
+        <p>Present: Building Vizcom</p>
+        <p>Future: Probably something cool af</p>
+        <p><a href="hiring.html">We're hiring at Vizcom!</a></p>
       </div>
     </div>
   </body>
