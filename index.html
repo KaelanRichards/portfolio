@@ -5,24 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <style>
-      /* Use a clean and modern font */
       @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
-      /* Use a grid layout to organize content */
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-gap: 2rem;
-        padding: 4rem;
-      }
-
-      /* Align the text to the right */
-      .right {
-        grid-column: 7 / 12;
-        text-align: right;
-      }
-
-      /* Apply the font */
       body {
         font-family: "Open Sans", sans-serif;
         background-color: #f0f0f0;
@@ -30,7 +14,20 @@
         margin: 0;
       }
 
-      /* Add some design elements for a sophisticated look */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 2rem;
+        padding: 4rem;
+      }
+
+      .center {
+        grid-column: 4 / 10;
+        text-align: left;
+        padding: 2rem;
+        border-radius: 8px;
+      }
+
       h1 {
         color: #333;
         border-bottom: 2px solid #333;
@@ -49,12 +46,11 @@
   </head>
   <body>
     <div class="grid">
-      <div class="center bg-black">
+      <div class="center">
         <h1>Kaelan</h1>
-        <p>Past: D1 Wrestler, Software Engineer</p>
-        <p>Present: Building Vizcom</p>
-        <p>Future: Probably something cool af</p>
-        <p><a href="hiring.html">We're hiring at Vizcom!</a></p>
+        <p>past: d1 wrestler, software engineer</p>
+        <p>present: cofounder vizcom</p>
+        <p>future: probably something cool af</p>
       </div>
     </div>
   </body>
